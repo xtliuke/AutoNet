@@ -58,7 +58,7 @@ public class MainService extends Service {
                     public void run() {
                         ToolUtils.enablePan(MainService.this,true);
                     }
-                },200);
+                },2000);
             }
         };
         registerReceiver(mReceiver,filter);
